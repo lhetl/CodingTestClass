@@ -1,0 +1,6 @@
+arr=list(map(int,input().split()))
+team1=max(arr)+min(arr)
+arr.remove(max(arr))
+arr.remove(min(arr))
+team2=max(arr)+min(arr)
+print(abs(team1-team2))
