@@ -4,7 +4,7 @@ arr=[]
 ans=[[] for i in range(n)]
 
 def f(left,right,bel,ber):
-    if ans[left][right]!=sys.maxsize:
+    if ans[left][right]!=-1:
         return
     else:
         cnt=ans[bel][ber]+arr[left][0]*arr[right][0]*arr[right][1]

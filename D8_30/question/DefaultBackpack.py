@@ -1,5 +1,6 @@
-v,e=map(int,input().split())
+v,e,a=map(int,input().split())
 objectList=[]
+tmp=list(map(int,input().split()))
 for i in range(v):
     objectList.append(list(map(int,input().split())))
 dp=[[0 for i in range (e+1)] for i in range(v+1)]
